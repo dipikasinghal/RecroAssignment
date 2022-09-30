@@ -8,7 +8,6 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.squareup.picasso.Picasso
 
 class RecyclerListAdapter(private val context: Context, private val mList: List<ListModel>?) :
     RecyclerView.Adapter<RecyclerListAdapter.ImageListViewHolder>() {
